@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  gap: 30px;
+  padding: 15px;
+}
+
+img {
+  width: 300px;
+}
+.info {
+  margin: 20px 20px;
+  width: 100vw;
+}
+
+.details {
+    display: block;
+  padding: 30px;
+  margin-bottom: 30px;
+  /* background-color: lime; */
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.goBackButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 16px;
+    background-color:lightgrey;
+    border: 1px solid grey;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
